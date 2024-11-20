@@ -1,0 +1,49 @@
+.action-buttons {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.action-buttons:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.ag-root {
+    overflow: scroll !important;
+}
+
+.actions-div {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.actions-div div {
+    margin: 6px;
+}
+
+.actions-div input,
+.actions-div select,
+.actions-div textarea {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 2px;
+}
+
+.actions-div button {
+    padding: 5px;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.actions-div button:hover {
+    background-color: rgb(196, 196, 196);
+}

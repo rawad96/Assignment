@@ -1,0 +1,46 @@
+.dashboard-div {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.dashboard-menu {
+    overflow: scroll;
+    width: 200px;
+    height: 100vh;
+    border-right: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+hr {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1px;
+}
+
+li button {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: transparent;
+    border: unset;
+    border-bottom: 1px solid gray;
+}
+
+li:hover {
+    background-color: rgb(203, 203, 203);
+}
+
+.table-div {
+    flex: 1;
+    padding: 5px;
+}
