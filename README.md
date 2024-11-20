@@ -45,4 +45,4 @@ A vehicle warehouse management system designed to help manage the warehouse. Thi
     node .\index.js
    ```
 
-I hope this will be helpful, and I look forward to your feedback. 😊
+I hope this will be helpful.😊
