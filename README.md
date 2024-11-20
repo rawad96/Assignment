@@ -1,6 +1,6 @@
 # Car warehouse management system
 
-A vehicle warehouse management system designed to help manage the warehouse. This system allows inventory tracking, product management, and also the management of warehouse workers.
+A cars warehouse management system designed to help manage the warehouse. This system allows inventory tracking, product management, and also the management of warehouse workers.
 
 ## Requirements
 
