@@ -7,7 +7,7 @@ const CarsFeaturesRouter = require("./Routers/carsFeaturesRouter");
 const EmployeeRouter = require("./Routers/employeeRouter");
 const FeaturesRouter = require("./Routers/featuresRouter");
 
-const { sequelize } = require("./Models");
+const { sequelize } = require("./models");
 
 const app = express();
 const PORT = 3000;
@@ -19,10 +19,9 @@ app.use(express.json());
 const connect = async () => {
   try {
     await sequelize.authenticate();
-    console.log("Database connection established successfully.");
+    console.log("Database connected successfully.");
 
     await sequelize.sync();
-    console.log("All models were synchronized successfully.");
   } catch (error) {
     console.error("Unable to connect to the database:", error);
   }
